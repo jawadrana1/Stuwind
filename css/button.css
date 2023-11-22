@@ -1,0 +1,16 @@
+.bannerbutton{
+    padding: 10px;
+    color: #1eb2a6;
+    background-color: white;
+    border: 0px transparent solid;
+    border-radius: 10px;
+    width: 200px;
+}
+.second-card-button{
+   /* margin-bottom: 7%; */
+   background-color: #1eb2a6;
+    color: white;
+    border: 0px transparent solid;
+    border-radius: 10px;
+    width: 200px;
+}

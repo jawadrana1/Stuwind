@@ -1,0 +1,141 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Sono', sans-serif;
+}
+
+
+ /* navbar content container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 1;
+    height: 100px;
+    
+}
+
+
+.logo {
+    margin-left: 4%;
+    font-size: 34px;
+    font-weight: bold;
+    color:white;
+    z-index: 1;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+}
+
+/* Burger menu styles */
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.line {
+    width: 25px;
+    height: 2px;
+    background-color:white;
+    margin: 3px 0px;
+}
+/* navbar all styling end here  */
+
+/* main container styling for banner */
+.main{
+    background-color: #1eb2a6a8;
+    height:500px;
+}
+
+.container2{
+    display: flex;
+    height: 384px;
+    align-items: center;
+    
+}
+.content{
+    padding-left: 30px;
+    width: 40%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    color:white;
+    text-align: center;
+}
+.bannerimage{
+  margin-top: 35px;
+  margin-left: 20%;
+  overflow: hidden;
+}
+.col-lg-6{
+    background-color: rgb(245, 245, 245);
+}
+.card-body{
+    margin-top: 30px;
+
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.card-heading{
+    color: #1eb2a6a8;
+    margin-bottom: 30px;
+}
+.card-text{
+    padding: 2%;
+    background-color: white;
+    color: gray;
+    height:80px ;
+    width: 100%;
+    margin-right: 2%;
+}
+.card-text-heading{
+    font-weight: bold;
+    font-size: 16;
+    color: #1eb2a6a8;
+}
+
+/* flags card styling portion  */
+
+.col{
+    margin-top: 3%;
+    border-radius: 70%;
+}
+
+.second-card-body{
+    background-color: whitesmoke;
+    height: 230px;
+}
+.second-card-title{
+    color: #2aaca1a8;
+    font-weight: bold;
+    font-size: 16;
+    padding: 3%;
+}
+.second-card-text{
+    background-color: white;
+    color: gray;
+    padding: 3%;
+}
+.card-img-top{
+    height: 200px;
+}

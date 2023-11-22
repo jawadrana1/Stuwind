@@ -1,0 +1,11 @@
+.bannerbutton:hover{
+    background-color: #1eb2a6;
+    color: white;
+}
+.nav-links a:hover{
+    color: #1eb2a6;
+}
+.second-card-button:hover{
+    color: #1eb2a6;
+    background-color: white;
+}
