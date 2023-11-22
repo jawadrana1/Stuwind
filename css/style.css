@@ -117,7 +117,7 @@ body {
 /* flags card styling portion  */
 
 .col{
-    margin-top: 3%;
+    margin-top: 6%;
     border-radius: 70%;
 }
 
@@ -138,27 +138,4 @@ body {
 }
 .card-img-top{
     height: 200px;
-}
-.card-img-top{
-   padding: 6%;
-}
-#denmarkimg{
-    /* background-size: cover; */
-    background-image: url('../images/denmark.jpg');
-    backdrop-filter: blur(90px);   
-}
-#spainimg{
-    background-size: cover;
-    background-image: url('../images/spain.jpg');
-    backdrop-filter: blur(100px);
-}
-#romaniaimg{
-    background-size: cover;
-    background-image: url('../images/romania.jpg');
-    backdrop-filter: blur(90px);   
-}
-#portugalimg{
-    background-size: cover;
-    background-image: url('../images/portugal.jpg');
-    backdrop-filter: blur(90px);   
 }
